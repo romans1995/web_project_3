@@ -123,10 +123,16 @@
         padding-top: 189px;
     }
     .place__website {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-area: web;
-        width: 240px;
+        align-content: space-evenly;
+        justify-content: start;
+        align-items: start;
+        justify-items: start;
     }
     .website__url-heading {
         grid-area: artist;
@@ -446,6 +452,9 @@
 }
 
 @media only screen and (max-width:320px) {
+    .page {
+        width: 78vh;
+    }
     .header__logo {
         height: 200px;
         padding-top: 24px;
@@ -512,7 +521,6 @@
         align-items: center;
     }
     .place__title {
-        max-width: 460px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 900;
@@ -522,11 +530,14 @@
         grid-area: title;
         margin: 0;
         padding-bottom: 48px;
+        padding-top: 129px;
+        width: 610px;
     }
     .place__img {
         grid-area: pic;
-        padding-right: 40px;
-        padding-bottom: 190px;
+        padding-bottom: 30px;
+        width: 100vh;
+        height: 609px;
     }
     .place__paragraph {
         grid-area: text1;
@@ -537,9 +548,14 @@
         font-size: 16px;
         line-height: 163%;
         margin: 0;
+        width: 69vh;
     }
     .place__paragraph:nth-child(odd) {
-        padding-top: 189px;
+        padding-top: 25px;
+    }
+    p.place__paragraph:last-child {
+        padding-bottom: 30px;
+        color: red;
     }
     .place__website {
         font-family: 'Inter';
@@ -548,19 +564,20 @@
         font-size: 18px;
         line-height: 22px;
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-area: web;
-        width: 240px;
+        align-content: space-evenly;
+        justify-content: start;
+        align-items: start;
+        justify-items: start;
     }
     .website__url-heading {
         grid-area: artist;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
         line-height: 15px;
         letter-spacing: 0.12em;
         text-transform: uppercase;
+        color: #AAAAAA;
     }
     .place__btn {
         grid-area: btn;
@@ -569,7 +586,6 @@
         background: #0278FE;
         border-radius: 4px;
         height: 48px;
-        position: relative;
         top: 48px;
     }
     .place__btn:hover {
@@ -578,7 +594,8 @@
     .website__artist {
         grid-area: artist-text;
         color: #FFFFFF;
-        padding-top: 18px;
+        padding-top: 36px;
+        width: 607px;
     }
     .place__btn-link {
         color: #FFFFFF;
