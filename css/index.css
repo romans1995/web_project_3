@@ -159,10 +159,10 @@
     .place__btn {
         grid-area: btn;
         padding: 13px 20px;
-        width: 254px;
+        width: 209px;
         background: #0278FE;
         border-radius: 4px;
-        height: 48px;
+        height: 22px;
         position: relative;
         top: 48px;
     }
@@ -216,10 +216,11 @@
     }
     .group__btn {
         padding: 13px 20px;
-        width: 142px;
+        width: 116px;
         background: #0278FE;
         border-radius: 4px;
-        height: 48px;
+        height: 20px;
+        margin: 0 auto;
     }
     .group__btn-link {
         font-family: 'Inter';
@@ -302,7 +303,11 @@
     }
     .places {
         height: 100%;
-        padding: 92px 148px 92px 142px;
+        padding: 92px 0px 92px 0px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
     }
     .places__place {
         grid: unset;
@@ -372,10 +377,11 @@
     .place__btn {
         grid-area: btn;
         padding: 13px 20px;
-        width: 253px;
+        width: 162px;
         background: #0278FE;
         border-radius: 4px;
-        height: 48px;
+        height: 22px;
+        position: relative;
         top: 48px;
     }
     .place__btn:hover {
@@ -510,7 +516,11 @@
     }
     .places {
         height: 100%;
-        padding: 92px 148px 92px 142px;
+        padding: 92px 0px 92px 0px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
     }
     .places__place {
         grid: unset;
@@ -580,10 +590,10 @@
     .place__btn {
         grid-area: btn;
         padding: 13px 20px;
-        width: 253px;
+        width: 161px;
         background: #0278FE;
         border-radius: 4px;
-        height: 48px;
+        height: 24px;
         top: 48px;
     }
     .place__btn:hover {
@@ -632,10 +642,11 @@
     }
     .group__btn {
         padding: 13px 20px;
-        width: 142px;
+        width: 116px;
         background: #0278FE;
         border-radius: 4px;
-        height: 48px;
+        height: 20px;
+        margin: 0 auto;
     }
     .group__btn-link {
         font-family: 'Inter';
