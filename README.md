@@ -1,5 +1,5 @@
 # Project 3: From Homeland to Homeland
- <p href="https://romans1995.github.io/web_project_3/"> Github pages</p>
+ <button href="https://romans1995.github.io/web_project_3/"> Github pages</button>
 ### Overview  
 * Intro  
 * Figma  
