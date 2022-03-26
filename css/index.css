@@ -146,7 +146,7 @@
         align-items: start;
         justify-items: start;
     }
-    .website__url-heading {
+    .places__website-url-heading {
         grid-area: artist;
         font-family: 'Inter';
         font-style: normal;
@@ -156,7 +156,7 @@
         text-transform: uppercase;
         color: #AAAAAA;
     }
-    .place__btn {
+    .places__btn {
         grid-area: btn;
         padding: 13px 20px;
         width: 209px;
@@ -166,7 +166,7 @@
         position: relative;
         top: 48px;
     }
-    .place__btn:hover {
+    .places__btn:hover {
         background: #0063D2;
     }
     .places__website-artist {
@@ -174,7 +174,7 @@
         color: #FFFFFF;
         padding-top: 18px;
     }
-    .place__btn-link {
+    .places__btn-link {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
@@ -364,7 +364,7 @@
         align-items: start;
         justify-items: start;
     }
-    .website__url-heading {
+    .places__website-url-heading {
         grid-area: artist;
         font-family: 'Inter';
         font-style: normal;
@@ -374,7 +374,7 @@
         text-transform: uppercase;
         color: #AAAAAA;
     }
-    .place__btn {
+    .places__btn {
         grid-area: btn;
         padding: 13px 20px;
         width: 162px;
@@ -384,7 +384,7 @@
         position: relative;
         top: 48px;
     }
-    .place__btn:hover {
+    .places__btn:hover {
         background: #0063D2;
     }
     .places__website-artist {
@@ -393,7 +393,7 @@
         padding-top: 36px;
         width: 607px;
     }
-    .place__btn-link {
+    .places__btn-link {
         color: #FFFFFF;
     }
     .cover {
@@ -577,7 +577,7 @@
         align-items: start;
         justify-items: start;
     }
-    .website__url-heading {
+    .places__website-url-heading {
         grid-area: artist;
         font-family: 'Inter';
         font-style: normal;
@@ -587,7 +587,7 @@
         text-transform: uppercase;
         color: #AAAAAA;
     }
-    .place__btn {
+    .places__btn {
         grid-area: btn;
         padding: 13px 20px;
         width: 161px;
@@ -596,7 +596,7 @@
         height: 24px;
         top: 48px;
     }
-    .place__btn:hover {
+    .places__btn:hover {
         background: #0063D2;
     }
     .places__website-artist {
@@ -605,7 +605,7 @@
         padding-top: 36px;
         width: 607px;
     }
-    .place__btn-link {
+    .places__btn-link {
         color: #FFFFFF;
     }
     .cover {
