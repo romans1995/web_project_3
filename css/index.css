@@ -197,7 +197,7 @@
         padding: 20% 0px;
         line-height: 1.5;
     }
-    .group__title {
+    .cover__group-title {
         font-family: initial;
         font-style: normal;
         font-weight: 900;
@@ -206,7 +206,7 @@
         color: #FFFFFF;
         margin: 0;
     }
-    .group__subtitle {
+    .cover__group-subtitle {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -214,7 +214,7 @@
         line-height: 22px;
         color: #FFFFFF;
     }
-    .group__btn {
+    .cover__group-btn {
         padding: 13px 20px;
         width: 116px;
         background: #0278FE;
@@ -222,7 +222,7 @@
         height: 20px;
         margin: 0 auto;
     }
-    .group__btn-link {
+    .cover__group-btn-link {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
@@ -411,7 +411,7 @@
         padding: 20% 0px;
         line-height: 1.5;
     }
-    .group__title {
+    .cover__group-title {
         font-family: initial;
         font-style: normal;
         font-weight: 900;
@@ -420,7 +420,7 @@
         color: #FFFFFF;
         margin: 0;
     }
-    .group__subtitle {
+    .cover__group-subtitle {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -428,14 +428,14 @@
         line-height: 22px;
         color: #FFFFFF;
     }
-    .group__btn {
+    .cover__group-btn {
         padding: 13px 20px;
         width: 142px;
         background: #0278FE;
         border-radius: 4px;
         height: 48px;
     }
-    .group__btn-link {
+    .cover__group-btn-link {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
@@ -623,7 +623,7 @@
         padding: 20% 0px;
         line-height: 1.5;
     }
-    .group__title {
+    .cover__group-title {
         font-family: initial;
         font-style: normal;
         font-weight: 900;
@@ -632,7 +632,7 @@
         color: #FFFFFF;
         margin: 0;
     }
-    .group__subtitle {
+    .cover__group-subtitle {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -640,7 +640,7 @@
         line-height: 22px;
         color: #FFFFFF;
     }
-    .group__btn {
+    .cover__group-btn {
         padding: 13px 20px;
         width: 116px;
         background: #0278FE;
@@ -648,7 +648,7 @@
         height: 20px;
         margin: 0 auto;
     }
-    .group__btn-link {
+    .cover__group-btn-link {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
