@@ -475,6 +475,10 @@
             font-size: 18px;
             line-height: 22px;
             color: #FFFFFF;
+            height: 66px;
+            width: 280px;
+            margin: auto;
+            padding-bottom: 45px;
         }
         .cover__group-btn {
             padding: 13px 20px;
@@ -511,6 +515,8 @@
         }
         .header__logo {
             padding-top: 24px;
+            height: 51px;
+            padding-left: 20%;
         }
         .lead__title {
             font-family: 'Inter';
@@ -571,12 +577,18 @@
         .photo-grid__list {
             padding-top: 90px;
             gap: 16px;
+            padding-right: 16px;
             list-style-type: none;
+            margin: auto 0;
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+            align-items: flex-end;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
         }
         .photo-grid__photo {
-            height: 100%;
-            padding-bottom: 12px;
-            width: 100%;
+            margin: 0;
         }
         .places {
             height: 100%;
