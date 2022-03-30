@@ -658,6 +658,7 @@
             letter-spacing: 0.12em;
             text-transform: uppercase;
             color: #AAAAAA;
+            font-size: 12px;
         }
         .places__btn {
             grid-area: btn;
