@@ -53,7 +53,6 @@
         }
         .intro {
             padding: 0px 347px 100px 253px;
-            ;
         }
         .intro__title {
             font-family: 'Inter', Arial, sans-serif;
@@ -118,7 +117,7 @@
         }
         .places {
             height: 100%;
-            padding: 92px 10% 92px 10%
+            padding: 92px 10% 92px 10%;
         }
         .places__place {
             padding-top: 93px;
@@ -377,7 +376,7 @@
         .places__img {
             grid-area: pic;
             padding-bottom: 30px;
-            height: 340px
+            height: 340px;
         }
         .places__paragraph {
             grid-area: text1;
