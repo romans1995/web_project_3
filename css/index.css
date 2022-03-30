@@ -59,7 +59,7 @@
             font-family: 'Inter';
             font-style: normal;
             font-weight: 900;
-            font-size: 54px;
+            font-size: 4.0vw;
             color: #FFFFFF;
             line-height: 58px;
             padding-top: 92px;
@@ -77,8 +77,8 @@
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
-            font-size: 24px;
-            line-height: 34px;
+            font-size: 1.7vw;
+            line-height: 2.4vw;
         }
         .intro__author {
             direction: rtl;
@@ -94,8 +94,8 @@
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
-            font-size: 24px;
-            line-height: 34px;
+            font-size: 1.7vw;
+            line-height: 2.7vw;
         }
         .photo-grid {
             height: 100%;
@@ -155,7 +155,6 @@
             font-size: 18px;
             margin: 0;
             padding-left: 40px;
-            width: 100%;
         }
         .places__paragraph:nth-child(odd) {
             padding-top: 150px;
@@ -271,6 +270,9 @@
     }
     
     @media only screen and (min-width: 321px) and (max-width: 768px) {
+        .header {
+            text-align: center;
+        }
         .header__logo {
             padding-top: 24px;
         }
@@ -278,7 +280,7 @@
             font-family: 'Inter';
             font-style: normal;
             font-weight: 900;
-            font-size: 88px;
+            font-size: 96px;
             text-align: center;
             color: #FFFFFF;
             margin: 0;
@@ -288,8 +290,8 @@
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
-            font-size: 53px;
-            line-height: 46px;
+            font-size: 30px;
+            line-height: 36px;
             text-align: center;
             padding: 46px 17px 40px 16px;
             margin: 0;
@@ -303,22 +305,42 @@
             padding: 0px 24px 0px 24px;
         }
         .intro__title {
-            font-size: 94px;
+            font-size: 54px;
             color: #FFFFFF;
             line-height: 88px;
             padding: 92px 16px 40px 16px;
         }
-        .intro__text {
-            font-size: 52px;
-            line-height: 44px;
-            color: #ffff;
+        .intro__quote {
+            color: #FFFFFF;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.7vw;
+            line-height: 2.4vw;
+        }
+        .intro__author {
+            direction: rtl;
+            color: #FFFFFF;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+        }
+        .intro__discription {
+            color: #FFFFFF;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.7vw;
+            line-height: 2.7vw;
         }
         .photo-grid__list {
             padding-top: 90px;
             gap: 16px;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            ;
+            list-style-type: none;
             grid-template-rows: 229px 228px;
         }
         .photo-grid__photo {
@@ -327,34 +349,35 @@
         }
         .places {
             height: 100%;
-            padding: 92px 0px 92px 0px;
+            padding: 0px 24px 92px 24px;
             margin: 0 auto;
             display: flex;
             flex-direction: column;
             align-items: baseline;
         }
         .places__place {
-            grid: unset;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            display: grid;
+            grid-template-columns: 346px 278px;
+            grid-template-rows: 377px 330px;
+            gap: 0px 0px;
+            grid-template-areas: "title web ." "pic text1 ." "btn . .";
         }
         .places__title {
             font-family: 'Inter';
             font-style: normal;
             font-weight: 900;
-            font-size: 72px;
-            line-height: 76px;
+            font-size: 42px;
+            line-height: 46px;
             color: #FFFFFF;
             grid-area: title;
             margin: 0;
-            padding-bottom: 48px;
-            padding-top: 129px;
+            padding-top: 189px;
+            margin-right: 92px;
         }
         .places__img {
             grid-area: pic;
             padding-bottom: 30px;
-            height: 480px;
+            height: 340px
         }
         .places__paragraph {
             grid-area: text1;
@@ -362,10 +385,10 @@
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
-            font-size: 16px;
-            line-height: 163%;
+            font-size: 1.5vw;
             margin: 0;
-            padding-bottom: 20px;
+            padding-left: 40px;
+            line-height: 163%;
         }
         .places__paragraph:nth-child(odd) {
             padding-top: 25px;
@@ -385,6 +408,12 @@
             justify-content: start;
             align-items: start;
             justify-items: start;
+            padding-left: 40px;
+        }
+        .places__website-artist {
+            grid-area: artist-text;
+            color: #FFFFFF;
+            padding-top: 8px;
         }
         .places__website-url-heading {
             grid-area: artist;
@@ -395,6 +424,7 @@
             letter-spacing: 0.12em;
             text-transform: uppercase;
             color: #AAAAAA;
+            font-size: 1vw;
         }
         .places__btn {
             grid-area: btn;
@@ -409,27 +439,25 @@
         .places__btn:hover {
             background: #0063D2;
         }
-        .places__website-artist {
-            grid-area: artist-text;
-            color: #FFFFFF;
-            padding-top: 36px;
-        }
         .places__btn-link {
             color: #FFFFFF;
+            text-decoration: none;
         }
         .cover {
             background-size: cover;
             background-image: url(../img/cover.png);
             background-repeat: no-repeat;
-            margin: 0;
+            margin-top: 92px;
+            height: 746px;
         }
         .cover:hover {
             background: linear-gradient(to top, #2a2c2fe1, #2a2c2fe1), url(../img/cover.png) no-repeat top center;
         }
         .cover__group {
             text-align: center;
-            padding: 20% 0px;
+            padding: 31% 0px;
             line-height: 1.5;
+            height: 746px;
         }
         .cover__group-title {
             font-family: initial;
@@ -450,18 +478,20 @@
         }
         .cover__group-btn {
             padding: 13px 20px;
-            width: 142px;
+            width: 137px;
             background: #0278FE;
             border-radius: 4px;
             height: 48px;
+            margin: 0 auto;
         }
         .cover__group-btn-link {
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
             font-size: 18px;
-            line-height: 22px;
+            line-height: 45px;
             color: #FFFFFF;
+            text-decoration: none;
         }
         .footer__copyright {
             font-family: 'Inter';
