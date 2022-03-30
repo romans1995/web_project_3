@@ -28,7 +28,7 @@
             align-items: center;
         }
         .lead__title {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 900;
             font-size: 96px;
@@ -37,7 +37,7 @@
             margin: 0;
         }
         .lead__subtitle {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 30px;
@@ -56,7 +56,7 @@
             ;
         }
         .intro__title {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 900;
             font-size: 4.0vw;
@@ -66,7 +66,7 @@
         }
         .intro__text {
             color: #FFFFFF;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 24px;
@@ -74,7 +74,7 @@
         }
         .intro__quote {
             color: #FFFFFF;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 1.7vw;
@@ -83,7 +83,7 @@
         .intro__author {
             direction: rtl;
             color: #FFFFFF;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 24px;
@@ -91,7 +91,7 @@
         }
         .intro__discription {
             color: #FFFFFF;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 1.7vw;
@@ -130,7 +130,7 @@
         }
         .places__title {
             max-width: 460px;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 900;
             font-size: 72px;
@@ -149,7 +149,7 @@
         .places__paragraph {
             grid-area: text1;
             color: #FFFFFF;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
@@ -160,7 +160,7 @@
             padding-top: 150px;
         }
         .places__website {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
@@ -174,7 +174,7 @@
         }
         .places__website-url-heading {
             grid-area: artist;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 12px;
@@ -201,7 +201,7 @@
             padding-top: 18px;
         }
         .places__btn-link {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 18px;
@@ -233,7 +233,7 @@
             margin: 0;
         }
         .cover__group-subtitle {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
@@ -250,7 +250,7 @@
         }
         .cover__group-btn-link {
             text-decoration: none;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 18px;
@@ -258,7 +258,7 @@
             color: #FFFFFF;
         }
         .footer__copyright {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -277,7 +277,7 @@
             padding-top: 24px;
         }
         .lead__title {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 900;
             font-size: 96px;
@@ -287,7 +287,7 @@
             padding: 0px 24px;
         }
         .lead__subtitle {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 30px;
@@ -312,7 +312,7 @@
         }
         .intro__quote {
             color: #FFFFFF;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 1.7vw;
@@ -321,7 +321,7 @@
         .intro__author {
             direction: rtl;
             color: #FFFFFF;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 24px;
@@ -329,7 +329,7 @@
         }
         .intro__discription {
             color: #FFFFFF;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 1.7vw;
@@ -363,7 +363,7 @@
             grid-template-areas: "title web ." "pic text1 ." "btn . .";
         }
         .places__title {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 900;
             font-size: 42px;
@@ -382,7 +382,7 @@
         .places__paragraph {
             grid-area: text1;
             color: #FFFFFF;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 1.5vw;
@@ -398,7 +398,7 @@
             color: red;
         }
         .places__website {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
@@ -417,7 +417,7 @@
         }
         .places__website-url-heading {
             grid-area: artist;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             line-height: 15px;
@@ -469,7 +469,7 @@
             margin: 0;
         }
         .cover__group-subtitle {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
@@ -489,7 +489,7 @@
             margin: 0 auto;
         }
         .cover__group-btn-link {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 18px;
@@ -498,7 +498,7 @@
             text-decoration: none;
         }
         .footer__copyright {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -519,7 +519,7 @@
             padding-left: 20%;
         }
         .lead__title {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             padding-top: 50px;
             font-size: 32px;
             height: 66px;
@@ -527,7 +527,7 @@
             text-align: center;
         }
         .lead__subtitle {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -558,18 +558,18 @@
             color: #ffff;
         }
         .intro__author {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             color: #FFFFFF;
             direction: rtl;
         }
         .intro__quote {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             color: #FFFFFF;
             font-size: 24px;
             line-height: 30px;
         }
         .intro__discription {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             color: #FFFFFF;
             font-size: 24px;
             line-height: 30px;
@@ -605,7 +605,7 @@
             align-items: center;
         }
         .places__title {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 900;
             font-size: 32px;
@@ -623,7 +623,7 @@
         .places__paragraph {
             grid-area: text1;
             color: #FFFFFF;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -639,7 +639,7 @@
             color: red;
         }
         .places__website {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
@@ -652,7 +652,7 @@
         }
         .places__website-url-heading {
             grid-area: artist;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             line-height: 15px;
@@ -695,7 +695,7 @@
             line-height: 1.5;
         }
         .cover__group-title {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 900;
             font-size: 32px;
@@ -704,7 +704,7 @@
             margin: 0;
         }
         .cover__group-subtitle {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
@@ -721,7 +721,7 @@
         }
         .cover__group-btn-link {
             text-decoration: none;
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 18px;
@@ -729,7 +729,7 @@
             color: #FFFFFF;
         }
         .footer__copyright {
-            font-family: 'Inter';
+            font-family: 'Inter', Arial, sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
