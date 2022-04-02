@@ -11,10 +11,10 @@
         font-family: 'Inter', Arial, sans-serif;
         font-style: normal;
         font-weight: 900;
-        font-size: 7.027818448023426vw;
+        font-size: 96px;
         text-align: center;
         color: #FFFFFF;
-        margin: 0;
+        margin: 0 auto;
     }
     .lead__subtitle {
         font-family: 'Inter', Arial, sans-serif;

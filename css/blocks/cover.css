@@ -1,6 +1,5 @@
     .cover {
         background-image: url(../../img/cover.png);
-        margin: 92px auto 0;
         max-width: 1184px;
         display: flex;
         gap: 32px;
@@ -16,7 +15,16 @@
     }
     
     .cover::after {
-        width: 100vw;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(42, 44, 47, 0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        transition: all 0.4s ease-out;
     }
     
     .cover:hover {

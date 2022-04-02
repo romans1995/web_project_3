@@ -1,7 +1,7 @@
 @media only screen and (min-width: 769px) {
     .places {
         height: 100%;
-        padding: 6.734992679355783vw 10%;
+        padding: 294px 10%;
     }
     .places__place {
         padding-top: 93px;
@@ -102,7 +102,7 @@
         padding-top: 93px;
         display: grid;
         grid-template-columns: 28vw 54vw;
-        grid-template-rows: 14vw 28vw 6vw;
+        grid-template-rows: 14vw 36vw 6vw;
         gap: 0px 30px;
         grid-template-areas: "title web ." "pic text1 ." "btn . .";
     }
