@@ -6,9 +6,9 @@
     .places__place {
         padding-top: 93px;
         display: grid;
-        grid-template-columns: 28vw 54vw;
+        grid-template-columns: 28vw 50vw;
         grid-template-rows: 14vw 28vw 6vw;
-        gap: 0px 30px;
+        gap: 48px 40px;
         grid-template-areas: "title web ." "pic text1 ." "btn . .";
     }
     .places__title {

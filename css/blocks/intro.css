@@ -1,14 +1,15 @@
 @media only screen and (min-width: 769px) {
     .intro {
-        padding: 0px 347px 100px 253px;
+        max-width: 984px;
+        margin: 0 auto 118px;
     }
     .intro__title {
         font-family: 'Inter', Arial, sans-serif;
         font-style: normal;
         font-weight: 900;
-        font-size: 4.0vw;
+        font-size: 3.294691885295912vw;
         color: #FFFFFF;
-        line-height: 58px;
+        line-height: 1.07;
         padding-top: 92px;
     }
     .intro__text {
@@ -28,6 +29,7 @@
         line-height: 2.4vw;
     }
     .intro__author {
+        margin: 0;
         direction: rtl;
         color: #FFFFFF;
         font-family: 'Inter', Arial, sans-serif;
