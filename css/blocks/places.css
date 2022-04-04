@@ -1,13 +1,13 @@
 .places {
-    height: 100%;
-    padding: 294px 10%;
+    padding-top: 92px;
+    margin: 0 auto;
 }
 
 .places__place {
     padding-top: 93px;
     display: grid;
     grid-template-columns: 24vw 45vw;
-    grid-template-rows: 14vw 26vw 37vw;
+    grid-template-rows: 16vw 26vw 8vw;
     gap: 48px 40px;
     grid-template-areas: "title web ." "pic text1 ." "btn . .";
 }
@@ -16,10 +16,10 @@
     max-width: 33.674963396778914vw;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
+    font-style: normal;
     font-weight: 900;
-    font-size: 5.270863836017569vw;
-    line-height: 5.563689604685212vw;
-    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 35px;
     grid-area: title;
     margin: 0;
 }
@@ -37,7 +37,7 @@
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 18px;
     margin: 0;
     padding-left: 2.9vw;
 }
