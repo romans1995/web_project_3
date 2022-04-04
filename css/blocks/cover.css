@@ -107,12 +107,9 @@
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
-            line-height: 22px;
+            line-height: 16px;
             color: #FFFFFF;
-            height: 66px;
-            width: 280px;
             margin: auto;
-            padding-bottom: 45px;
         }
         .cover__group-btn {
             padding: 13px 20px;
