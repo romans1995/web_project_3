@@ -1,5 +1,5 @@
 .cover {
-    background-image: url(../../img/cover.png);
+    background-image: url(../../images/cover.png);
     margin: 92px;
     max-width: 1184px;
     padding: 243px 20vw;
@@ -30,7 +30,7 @@
 }
 
 .cover:hover {
-    background: linear-gradient(to top, #2a2c2fe1, #2a2c2fe1), url(../../img/cover.png) no-repeat top center;
+    background: linear-gradient(to top, #2a2c2fe1, #2a2c2fe1), url(../../images/cover.png) no-repeat top center;
 }
 
 .cover__group {
@@ -80,12 +80,13 @@
 @media only screen and (min-width: 321px) and (max-width: 768px) {
     .cover {
         background-size: cover;
-        background-image: url(../../img/cover.png);
+        background-image: url(../../images/cover.png);
         background-repeat: no-repeat;
-        margin-top: 0;
+        margin: auto 0;
+        padding: 0;
     }
     .cover:hover {
-        background: linear-gradient(to top, #2a2c2fe1, #2a2c2fe1), url(../../img/cover.png) no-repeat top center;
+        background: linear-gradient(to top, #2a2c2fe1, #2a2c2fe1), url(../../images/cover.png) no-repeat top center;
     }
     .cover__group {
         text-align: center;

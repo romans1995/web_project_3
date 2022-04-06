@@ -1,7 +1,6 @@
 .photo-grid {
     height: 100%;
     padding: 18px 48px;
-    overflow-x: hidden;
 }
 
 .photo-grid__list {
@@ -30,7 +29,7 @@
         grid-template-columns: repeat(2, 1fr);
         list-style-type: none;
         grid-template-rows: 228px 228px;
-        padding: 90px 0;
+        padding: 90px 0 0 0;
     }
     .photo-grid__photo {
         height: 100%;
