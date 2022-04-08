@@ -1,9 +1,8 @@
 .cover {
-    background-image: url(../../images/cover.png);
+    background-image: url(../images/cover.png);
     margin: 92px;
     max-width: 1184px;
     padding: 243px 20vw;
-    max-height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,14 +28,15 @@
     transition: all 0.4s ease-out;
 }
 
-.cover:hover {
-    background: linear-gradient(to top, #2a2c2fe1, #2a2c2fe1), url(../../images/cover.png) no-repeat top center;
+.cover:hover::after {
+    background-color: rgba(42, 44, 47, 0.8);
 }
 
 .cover__group {
     text-align: center;
     padding: 20% 0px;
     line-height: 1.5;
+    z-index: 3;
 }
 
 .cover__group-title {
@@ -79,23 +79,19 @@
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
     .cover {
-        background-size: cover;
-        background-image: url(../../images/cover.png);
-        background-repeat: no-repeat;
         margin: auto 0;
         padding: 0;
     }
     .cover:hover {
-        background: linear-gradient(to top, #2a2c2fe1, #2a2c2fe1), url(../../images/cover.png) no-repeat top center;
+        margin: auto 0;
+        padding: 0;
     }
     .cover__group {
-        text-align: center;
         padding: 31% 0px;
-        line-height: 1.5;
         width: 93.8vw;
     }
     .cover__group-title {
-        font-family: initial;
+        font-family: 'Inter', Arial, sans-serif;
         font-style: normal;
         font-weight: 900;
         font-size: 72px;
@@ -134,19 +130,19 @@
 @media only screen and (max-width:320px) {
     .cover {
         margin-top: 64px;
-        padding: 46px 0;
+        padding: 28px 20vw;
         gap: 16px;
         margin: auto;
     }
-    .cover__title {
+    .cover__group-title {
         font-size: 32px;
         line-height: 1.09;
     }
-    .cover__subtitle {
+    .cover__group-subtitle {
         font-size: 14px;
         line-height: 1.14;
     }
-    .cover__button {
+    .cover__group-btn {
         font-size: 18px;
         line-height: 1.22;
     }
