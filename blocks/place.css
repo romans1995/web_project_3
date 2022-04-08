@@ -57,6 +57,7 @@
 .place__paragraph {
     margin: 0;
     line-height: 1.6;
+    font-size: 16px;
 }
 
 .place__button {
@@ -127,7 +128,7 @@
         line-height: 1.22;
     }
     .place__paragraph-container,
-    .place__button-container {
+    .places__button-wrap {
         padding: 0 16px;
     }
 }

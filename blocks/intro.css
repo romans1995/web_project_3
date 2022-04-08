@@ -1,23 +1,17 @@
 .intro {
     max-width: 984px;
     margin: 0 auto 118px;
-    overflow-x: hidden;
 }
 
 .intro__title {
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 54px;
-    color: #FFFFFF;
     line-height: 1.07;
-    padding-top: 92px;
     max-width: 785px;
+    margin: 0 0 40px;
 }
 
 .intro__quote {
-    color: #FFFFFF;
-    font-family: 'Inter', Arial, sans-serif;
     margin: 0;
     font-size: 24px;
     line-height: 1.4;
@@ -27,8 +21,6 @@
 
 .intro__author {
     direction: rtl;
-    color: #FFFFFF;
-    font-family: 'Inter', Arial, sans-serif;
     margin: 0;
     align-self: flex-end;
     font-size: 24px;
@@ -37,13 +29,9 @@
 }
 
 .intro__discription {
-    color: #FFFFFF;
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
     margin: 0;
     font-size: 16px;
     line-height: 1.63;
-    width: 784px;
 }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
@@ -52,49 +40,20 @@
         padding: 0px 24px 0px 24px;
     }
     .intro__title {
-        font-size: 4vw;
-        color: #FFFFFF;
-        line-height: 6.44216691068814vw;
-        padding: 92px 16px 40px 16px;
-    }
-    .intro__quote {
-        color: #FFFFFF;
-        font-family: 'Inter', Arial, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.7vw;
-        line-height: 2.4vw;
-    }
-    .intro__author {
-        direction: rtl;
-        color: #FFFFFF;
-        font-family: 'Inter', Arial, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 34px;
-    }
-    .intro__discription {
-        color: #FFFFFF;
-        font-family: 'Inter', Arial, sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.7vw;
-        line-height: 2.7vw;
+        font-size: 40px;
+        line-height: 1.1;
+        ;
     }
 }
 
 @media only screen and (max-width:320px) {
     .intro {
-        margin: 0;
+        margin-bottom: 90px;
         padding: 0 16px;
     }
     .intro__title {
-        width: 100%;
         font-size: 32px;
-        color: #FFFFFF;
-        line-height: 35px;
-        padding: 0 0px 40px 0px;
+        line-height: 1.093;
     }
     .intro__text {
         font-size: 52px;
@@ -102,23 +61,7 @@
         width: 755px;
         color: #ffff;
     }
-    .intro__author {
-        font-family: 'Inter', Arial, sans-serif;
-        color: #FFFFFF;
-        direction: rtl;
-    }
     .intro__quote {
-        font-family: 'Inter', Arial, sans-serif;
-        color: #FFFFFF;
-        font-size: 24px;
-        line-height: 30px;
-    }
-    .intro__discription {
-        font-family: 'Inter', Arial, sans-serif;
-        color: #FFFFFF;
-        margin: 0;
-        font-size: 16px;
-        line-height: 1.63;
-        width: 100%;
+        line-height: 1.25;
     }
 }
