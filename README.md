@@ -1,6 +1,6 @@
 # Project 3: From Homeland to Homeland
  <p>the project's name;
- From Homeland to Homeland
+ From Homeland to Homeland<br>
  the link to GitHub Pages with a published project: 
   <a href="https://romans1995.github.io/web_project_3/"> Github pages </a></p>
 ### Overview  
