@@ -31,6 +31,7 @@
         padding-right: 0;
     }
     .places__container {
+        /* padding-bottom: 62px; */
         gap: 50px;
     }
 }
