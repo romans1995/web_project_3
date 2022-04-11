@@ -1,5 +1,6 @@
 .photo-grid {
     padding: 18px 48px;
+    margin: 0 auto;
 }
 
 .photo-grid__list {
@@ -21,9 +22,12 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
+    .photo-grid {
+        max-width: 720px;
+    }
     .photo-grid__list {
         grid-template-columns: repeat(2, 1fr);
-        padding: 90px 0 0 0;
+        padding: 0;
     }
     .photo-grid__photo {
         height: 100%;
@@ -32,6 +36,9 @@
 }
 
 @media only screen and (max-width:320px) {
+    .photo-grid {
+        padding: 18px 48px 0;
+    }
     .photo-grid__list {
         padding-top: 0px;
         display: flex;

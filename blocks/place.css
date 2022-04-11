@@ -101,6 +101,9 @@
 }
 
 @media screen and (max-width: 320px) {
+    .places {
+        padding: 62px 0 0 0;
+    }
     .place__title {
         font-size: 32px;
         padding: 0 16px;
@@ -117,12 +120,12 @@
         position: relative;
     }
     .place__button {
-        width: 100%;
+        width: 288px;
         font-size: 18px;
         line-height: 1.22;
+        margin: 0 auto;
     }
-    .place__paragraph-container,
-    .places__button-wrap {
+    .place__paragraph-container {
         padding: 0 16px;
     }
 }

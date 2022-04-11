@@ -102,15 +102,17 @@
         margin-top: 64px;
         padding: 28px 20vw;
         gap: 16px;
-        margin: auto;
+        height: 254px;
     }
     .cover__group-title {
-        font-size: 32px;
+        font-size: 16px;
         line-height: 1.09;
     }
     .cover__group-subtitle {
-        font-size: 14px;
-        line-height: 1.14;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 16px 0;
+        padding: 0;
     }
     .cover__group-btn {
         font-size: 18px;

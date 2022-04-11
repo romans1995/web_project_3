@@ -20,6 +20,6 @@
     }
     .header__logo {
         max-width: 200px;
-        padding-top: 20px;
+        max-height: 51.85px;
     }
 }

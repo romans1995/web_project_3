@@ -29,7 +29,8 @@
     color: #FFFFFF;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin: 0;
+    margin: 0 auto 64px;
+    max-width: 720px;
 }
 
 .lead__image {
@@ -40,9 +41,10 @@
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
     .lead__title {
-        font-size: 13.027818vw;
+        font-size: 8.587vw;
         margin: 0;
         padding: 0px 24px 0px 24px;
+        line-height: 100px;
     }
     .lead__subtitle {
         padding: 45px 2vw 40px 2vw;
@@ -54,17 +56,20 @@
 
 @media only screen and (max-width:320px) {
     .lead {
-        margin: auto 0;
+        margin-bottom: 64px;
     }
     .lead__title {
         padding-top: 30px;
-        font-size: 32px;
+        font-size: 40px;
+        line-height: 44px;
         max-width: 288px;
+        margin: 0 auto 16px;
     }
     .lead__subtitle {
         font-size: 16px;
         line-height: 20px;
         padding: 0px 16px 40px 16px;
+        margin: 0 auto;
     }
     .lead__image {
         margin: auto 0;
