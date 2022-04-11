@@ -51,6 +51,7 @@
     }
     .lead__image {
         height: 480px;
+        margin-bottom: 88px;
     }
 }
 
