@@ -105,11 +105,11 @@
         height: 254px;
     }
     .cover__group-title {
-        font-size: 16px;
+        font-size: 32px;
         line-height: 1.09;
     }
     .cover__group-subtitle {
-        font-size: 18px;
+        font-size: 14px;
         line-height: 22px;
         margin: 16px 0;
         padding: 0;
