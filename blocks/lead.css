@@ -15,22 +15,19 @@
     font-size: 96px;
     text-align: center;
     color: #FFFFFF;
-    margin: 0 auto 32px;
+    margin: 0 auto 16px;
     line-height: 1.04;
 }
 
 .lead__subtitle {
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
-    font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin: 0 auto 64px;
     max-width: 720px;
+    text-align: center;
+    margin: 0 auto 64px;
+    line-height: 1.2;
+    padding: 0 24px;
 }
 
 .lead__image {

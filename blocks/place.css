@@ -101,9 +101,6 @@
 }
 
 @media screen and (max-width: 320px) {
-    .places {
-        padding: 62px 0 0 0;
-    }
     .place__title {
         font-size: 32px;
         padding: 0 16px;

@@ -77,6 +77,10 @@
     position: relative;
 }
 
+.cover__group-btn-link:hover {
+    background-color: #0063d2;
+}
+
 @media only screen and (min-width: 321px) and (max-width: 768px) {
     .cover {
         width: 100%;
@@ -92,9 +96,6 @@
         color: #FFFFFF;
         margin: auto;
     }
-    .cover__group-btn-link:hover {
-        background-color: #0063d2;
-    }
 }
 
 @media only screen and (max-width:320px) {
@@ -102,7 +103,7 @@
         margin-top: 64px;
         padding: 28px 20vw;
         gap: 16px;
-        height: 254px;
+        min-height: 254px;
     }
     .cover__group-title {
         font-size: 32px;
@@ -110,12 +111,8 @@
     }
     .cover__group-subtitle {
         font-size: 14px;
-        line-height: 22px;
+        line-height: 16px;
         margin: 16px 0;
         padding: 0;
-    }
-    .cover__group-btn {
-        font-size: 18px;
-        line-height: 1.22;
     }
 }
