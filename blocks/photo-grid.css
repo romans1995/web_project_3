@@ -1,4 +1,5 @@
 .photo-grid {
+    padding: 18px 48px;
     margin: 0 auto;
 }
 
@@ -28,8 +29,8 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .photo-grid__photo {
-        height: 100%;
-        padding-bottom: 12px;
+        max-width: none;
+        max-height: none;
     }
 }
 
