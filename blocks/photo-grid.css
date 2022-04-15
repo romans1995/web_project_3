@@ -24,6 +24,7 @@
 @media only screen and (min-width: 321px) and (max-width: 768px) {
     .photo-grid {
         max-width: 720px;
+        padding: 0px 48px;
     }
     .photo-grid__list {
         grid-template-columns: repeat(2, 1fr);
