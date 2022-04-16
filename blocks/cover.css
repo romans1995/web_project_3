@@ -101,9 +101,11 @@
 @media only screen and (max-width:320px) {
     .cover {
         margin-top: 64px;
-        padding: 28px 20vw;
         gap: 16px;
         min-height: 254px;
+    }
+    .cover__group {
+        padding: 46px 0px;
     }
     .cover__group-title {
         font-size: 32px;
